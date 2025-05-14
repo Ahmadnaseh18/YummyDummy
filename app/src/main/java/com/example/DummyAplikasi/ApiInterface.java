@@ -7,14 +7,17 @@ import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.POST;
 
 public interface ApiInterface {
+
+    // Endpoint untuk registrasi (jika belum ada)
     @FormUrlEncoded
-    @POST("register.php")
+    @POST("register")
     Call<ResponseBody> register(
-            @Field("name") String name,
+            @Field("nama") String nama,
             @Field("email") String email,
             @Field("password") String password
     );
 
+    // ✅ Endpoint untuk login
     @FormUrlEncoded
     @POST("login.php")
     Call<ResponseBody> login(
