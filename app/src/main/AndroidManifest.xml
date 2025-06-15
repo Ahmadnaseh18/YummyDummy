@@ -54,6 +54,21 @@
 
         </activity>
 
+        <activity android:name="com.example.DummyAplikasi.DaftarMakananActivity"
+            android:exported="false">
+
+        </activity>
+
+        <activity android:name="com.example.DummyAplikasi.PembayaranActivity"
+            android:exported="false">
+
+        </activity>
+
+        <activity android:name="com.example.DummyAplikasi.PembayaranSuksesActivity"
+            android:exported="false">
+
+        </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

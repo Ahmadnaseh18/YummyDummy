@@ -54,7 +54,7 @@ public class LoginActivity extends AppCompatActivity {
                             Toast.makeText(LoginActivity.this, "Login Berhasil", Toast.LENGTH_SHORT).show();
 
                             // Pindah ke ActivityMenu
-                            Intent intent = new Intent(LoginActivity.this, MenuActivity.class);
+                            Intent intent = new Intent(LoginActivity.this, DaftarMakananActivity.class);
                             startActivity(intent);
                             finish();
                         } else {

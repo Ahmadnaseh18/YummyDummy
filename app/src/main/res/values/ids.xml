@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recyclerMakanan" type="id" />
+    <item name="imgMakanan" type="id" />
+    <item name="txtNamaMakanan" type="id" />
+    <item name="txtHargaMakanan" type="id" />
+    <item name="txtJumlah" type="id" />
+    <item name="btnPlus" type="id" />
+    <item name="btnMinus" type="id" />
+</resources>
