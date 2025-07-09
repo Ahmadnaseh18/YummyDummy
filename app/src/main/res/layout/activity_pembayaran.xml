@@ -3,21 +3,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@android:color/white">
 
     <TextView
         android:id="@+id/txtRingkasan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ringkasan Pesanan"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/btnBayar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bayar Sekarang"
         android:layout_below="@+id/txtRingkasan"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
-        android:layout_centerHorizontal="true"/>
+        android:backgroundTint="#F5F1C7"
+        android:text="Bayar Sekarang"
+        android:textColor="#E65100" />
 </LinearLayout>
