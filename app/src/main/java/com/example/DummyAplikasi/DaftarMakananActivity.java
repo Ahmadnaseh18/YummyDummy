@@ -28,17 +28,25 @@ public class DaftarMakananActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         daftarMakanan = new ArrayList<>();
-        daftarMakanan.add(new Makanan("Nasi Goreng", "Rp12.000", R.drawable.nasi));
-        daftarMakanan.add(new Makanan("Sate Ayam", "Rp17.000", R.drawable.sate));
-        daftarMakanan.add(new Makanan("Bakso", "Rp12.000", R.drawable.bakso));
-        daftarMakanan.add(new Makanan("Mie Ayam", "Rp12.000", R.drawable.mie_ayam));
-        daftarMakanan.add(new Makanan("Gado-Gado", "Rp10.000", R.drawable.gado_gado));
-        daftarMakanan.add(new Makanan("Rendang", "Rp20.000", R.drawable.rendang));
-        daftarMakanan.add(new Makanan("Soto Ayam", "Rp13.000", R.drawable.soto));
-        daftarMakanan.add(new Makanan("Pempek", "Rp10.000", R.drawable.pempek));
-        daftarMakanan.add(new Makanan("Lontong Sayur", "Rp10.000", R.drawable.lontong_sayur));
-        daftarMakanan.add(new Makanan("Tahu Campur", "Rp10.000", R.drawable.tahu_campur));
-        daftarMakanan.add(new Makanan("Nasi Putih", "Rp5.000", R.drawable.nasiputih));
+        daftarMakanan.add(new Makanan("Nasi Putih", "Rp5.000", R.drawable.nasi_putih));
+        daftarMakanan.add(new Makanan("Ayam Goreng", "Rp10.000", R.drawable.ayam_goreng));
+        daftarMakanan.add(new Makanan("Ayam Balado", "Rp11.000", R.drawable.ayam_balado));
+        daftarMakanan.add(new Makanan("Telur Dadar", "Rp6.000", R.drawable.telur_dadar));
+        daftarMakanan.add(new Makanan("Telur Balado", "Rp7.000", R.drawable.telur_balado));
+        daftarMakanan.add(new Makanan("Ikan Goreng", "Rp8.000", R.drawable.ikan_goreng));
+        daftarMakanan.add(new Makanan("Tahu Goreng", "Rp3.000", R.drawable.tahu_goreng));
+        daftarMakanan.add(new Makanan("Telur Balado", "Rp7.000", R.drawable.telur_balado));
+        daftarMakanan.add(new Makanan("Perkedel", "Rp4.000", R.drawable.perkedel));
+        daftarMakanan.add(new Makanan("Rendang", "Rp13.000", R.drawable.rendang));
+        daftarMakanan.add(new Makanan("Semur Jengkol", "Rp8.000", R.drawable.jengkol));
+        daftarMakanan.add(new Makanan("Sayur Asem", "Rp5.000", R.drawable.sayur_asem));
+        daftarMakanan.add(new Makanan("Ati Ampela Balado", "Rp9.000", R.drawable.ati_ampela_balado));
+        daftarMakanan.add(new Makanan("Sayur Lodeh", "Rp5.000", R.drawable.sayur_lodeh));
+        daftarMakanan.add(new Makanan("Tumis Kangkung", "Rp4.000", R.drawable.tumis_kangkung));
+        daftarMakanan.add(new Makanan("Capcay", "Rp6.000", R.drawable.capcay));
+        daftarMakanan.add(new Makanan("Es Teh", "Rp4.000", R.drawable.esteh));
+        daftarMakanan.add(new Makanan("Air Mineral", "Rp3.000", R.drawable.air_mineral));
+        daftarMakanan.add(new Makanan("Es Jeruk", "Rp4.000", R.drawable.es_jeruk));
 
         adapter = new MakananAdapter(daftarMakanan);
         recyclerView.setAdapter(adapter);
